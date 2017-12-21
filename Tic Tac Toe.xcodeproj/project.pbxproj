@@ -12,6 +12,9 @@
 		0437F3771FEC4F91007024CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0437F3751FEC4F91007024CB /* Main.storyboard */; };
 		0437F3791FEC4F91007024CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0437F3781FEC4F91007024CB /* Assets.xcassets */; };
 		0437F37C1FEC4F92007024CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0437F37A1FEC4F92007024CB /* LaunchScreen.storyboard */; };
+		0437F3861FEC4FF6007024CB /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 0437F3831FEC4FF6007024CB /* board.png */; };
+		0437F3871FEC4FF6007024CB /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 0437F3841FEC4FF6007024CB /* cross.png */; };
+		0437F3881FEC4FF6007024CB /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 0437F3851FEC4FF6007024CB /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0437F3781FEC4F91007024CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0437F37B1FEC4F92007024CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0437F37D1FEC4F92007024CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0437F3831FEC4FF6007024CB /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		0437F3841FEC4FF6007024CB /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		0437F3851FEC4FF6007024CB /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				0437F3711FEC4F91007024CB /* AppDelegate.swift */,
 				0437F3731FEC4F91007024CB /* ViewController.swift */,
 				0437F3751FEC4F91007024CB /* Main.storyboard */,
+				0437F3831FEC4FF6007024CB /* board.png */,
+				0437F3841FEC4FF6007024CB /* cross.png */,
+				0437F3851FEC4FF6007024CB /* nought.png */,
 				0437F3781FEC4F91007024CB /* Assets.xcassets */,
 				0437F37A1FEC4F92007024CB /* LaunchScreen.storyboard */,
 				0437F37D1FEC4F92007024CB /* Info.plist */,
@@ -123,6 +132,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0437F3871FEC4FF6007024CB /* cross.png in Resources */,
+				0437F3861FEC4FF6007024CB /* board.png in Resources */,
+				0437F3881FEC4FF6007024CB /* nought.png in Resources */,
 				0437F37C1FEC4F92007024CB /* LaunchScreen.storyboard in Resources */,
 				0437F3791FEC4F91007024CB /* Assets.xcassets in Resources */,
 				0437F3771FEC4F91007024CB /* Main.storyboard in Resources */,
@@ -275,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSD4CWTK62;
 				INFOPLIST_FILE = "Tic Tac Toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lcpunch.Tic-Tac-Toe";
@@ -289,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PSD4CWTK62;
 				INFOPLIST_FILE = "Tic Tac Toe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lcpunch.Tic-Tac-Toe";
